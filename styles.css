@@ -79,7 +79,6 @@ header .profile-image:hover {
 
 .information {
   text-align: justify;
-  /* background-color: rgb(172, 135, 135); */
   border: solid 1px black;
   padding: 3px;
 }
@@ -181,8 +180,7 @@ a.social:hover {
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
-      flex-flow: wrap;
-      max-width: 1200px;
+      max-width: 1500px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
