@@ -3,18 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>My resume</title>
-    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="content"> <!-- Start wrapper div -->
+    <div> <!-- Start wrapper div -->
       
-      <header>
-        <img src="images/tharindu.jpg" alt="Photo of Tharindu Moratuwage" class="main-img">
-        <h1>Tharindu M, Developer</h1>
-      </header>
-
       <!-- Navigation throughout the site -->
-      <nav>
+      <nav class="main-nav">
         <ul class="nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="#summary">Profile Summary</a></li>
@@ -24,7 +19,12 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-
+      
+      
+      <header>
+        <img src="images/tharindu.jpg" alt="Photo of Tharindu Moratuwage" class="main-img">
+        <h1 class="tag name">Tharindu M, Developer</h1>
+      </header>
       
       <main>
         <!-- Personal summary information -->
@@ -39,7 +39,7 @@
         <!-- Skills summary information -->
         <section id="skills">
           <h2>SKILLS</h2>
-            <ul class="skills">
+            <ul class="resumeSkills">
                 <li>HTML / CSS</li>
                 <li>Python, Java, C++, Mathlab</li>
                 <li>Microsoft office</li>
@@ -70,14 +70,22 @@
       <!-- Page main section devide with horizontol line -->
       <hr>
 
+      <!-- Contact details -->
+      <section id="contact">
+        <h2>CONTACT</h2>
+        <p><strong>Email :</strong><a href="mailto:tmoratuwage@gmail.com?subject=Hi%20There"> tmoratuwage@gmail.com</a></p>
+        <p><strong>Phone :</strong> 07309747440</p>
+        <p><strong>Address :</strong> 28 Westleishclose Northampton NN1 4JX</p>
+      </section>
+
       <!-- Footer for contact details -->
       <footer>
-        <section id="contact">
-          <h2>CONTACT</h2>
-          <p><strong>Email :</strong><a href="mailto:tmoratuwage@gmail.com?subject=Hi%20There"> tmoratuwage@gmail.com</a></p>
-          <p><strong>Phone :</strong> 07309747440</p>
-          <p><strong>Address :</strong> 28 Westleishclose Northampton NN1 4JX</p>
-        </section>
+        <ul>
+          <li><a href="https://www.facebook.com/tharindu.moratuwage/" class="social facebook" target="_blank">Facebook</a></li>
+          <li><a href="https://www.linkedin.com/in/tharindu-moratuwage/" class="social linkedin" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/tmoratuwage" class="social github" target="_blank">Github</a></li>
+        </ul>
+        <p class="copyright">&copy; April 2022, Tharindu Moratuwage</p>
       </footer>
     
     </div> <!-- Close wrapper div -->

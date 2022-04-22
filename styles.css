@@ -31,6 +31,28 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
+/* Navigation for interest site */
+.main-navinterest {
+  width: 100%;
+  background: rgb(226, 224, 224);
+  min-height: 30px;
+  position: fixed;
+  text-align: center;
+}
+
+/* resume image style */
+.main-img{
+  border: solid black 5px;
+  border-radius: 50%;
+  transition: transform .2s;
+}
+
+.main-img:hover {
+  transform: scale(1.2) rotate(-20deg);
+}
+
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -77,6 +99,23 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(33deg);
 }
 
+#interestheader{
+  text-align: center;
+  background: url('images/interest1.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+#interests{
+  border-radius: 6px;
+  display: inline-block;
+  background: #797979;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
 .information {
   text-align: justify;
   border: solid 1px black;
@@ -91,10 +130,26 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
+.taginterest {
+  background-color: #efefef;
+  color: maroon;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
 .location {
   background-color: #222;
   color: yellow;
 }
+
+.statement {
+  background-color: rgb(5, 5, 5);
+  color: rgb(235, 36, 99);
+}
+
 .card {
   margin: 30px;
   padding: 20px 20px 20px;
@@ -121,6 +176,10 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 2px;
+}
+
+.resumeSkills{
+  display:contents;
 }
 
 .skills li:nth-child(odd) {
